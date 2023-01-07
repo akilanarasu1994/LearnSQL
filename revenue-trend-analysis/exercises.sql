@@ -165,3 +165,5 @@ SELECT
 FROM orders
 WHERE order_date >= DATE_TRUNC('month', CURRENT_TIMESTAMP)
 GROUP BY ship_country;
+
+
